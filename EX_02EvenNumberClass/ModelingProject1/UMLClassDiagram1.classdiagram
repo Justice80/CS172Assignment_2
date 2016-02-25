@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="0e823395-2acf-48c3-b11d-63dfb5a16d82" name="UMLClassDiagram1" linkedPackageId="74f0dd89-8df4-4a1a-b23f-87df815058ca" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b4567957-1860-4ec1-8187-0846770b8c6c" name="EvenNum" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a1f72256-cc33-422e-81c7-2b2836dd2526" />
+        <ownedAttributesInternal>
+          <property Id="4a198a19-d5c5-462f-89d3-c3682a38a50c" name="int value" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="21e7e883-4ef3-4f06-b3bc-d4a51d6f69bf" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="d33712e5-f4b0-45e6-8874-b734288527fe" name="EvenNum" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="079748e3-0221-4793-8e85-76a4b3af2ea3" />
+          </operation>
+          <operation Id="cf64b94a-430f-4a41-a175-c2234e5321fc" name="getValue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="594b3d45-b79a-42d0-89d6-de5e04748735" />
+          </operation>
+          <operation Id="d6dd4155-3b03-425c-9d84-053da4a31fd2" name="getNext" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="afb17b96-c714-4851-b58b-e9faa8b0fb7f" />
+          </operation>
+          <operation Id="579f81b4-8b01-45fd-9927-7a032027c82a" name="getPrev" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="435e5c5e-4c7d-4bde-81dc-e39156e62ffc" />
+          </operation>
+          <operation Id="1ee4c6f9-6b30-4869-9c95-4640f4fa2013" name="EvenNum" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="358bfbb4-feb8-40c7-877e-dbc5c68a98c9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="619fa410-a066-4bba-9cd6-b69b889a284e" name="int" direction="In" isUnique="false">
+                  <elementDefinition Id="f89ec2d1-18d7-42b3-ba51-4dc8a8d97689" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="6a98bdd1-a420-44b5-b13a-aa98b61f2b22" name="setValue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="190353a4-2711-48a0-971d-c4433aaf0af7" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="74f0dd89-8df4-4a1a-b23f-87df815058ca" name="ModelingProject1">
+    <elementDefinition Id="1a126dac-ad29-485a-a765-06dcf5b964f1" />
+    <profileInstances>
+      <packageHasProfileInstances Id="b1c6ae10-a5ab-42cf-9214-437dad3c2bfa">
+        <profileInstance Id="31ed688c-ba03-48d8-a4e0-3a874419153f" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="82c450d4-8d9b-4d2c-802a-402e60a57fec">
+        <profileInstance Id="7bfe2c5f-d014-4f2a-be97-696362d13657" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
