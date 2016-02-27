@@ -31,7 +31,7 @@ EX02_03: /15
 		Test Program-- 5/5
 
 
-Total: /50
+Total: 46/50
 
 */
 
