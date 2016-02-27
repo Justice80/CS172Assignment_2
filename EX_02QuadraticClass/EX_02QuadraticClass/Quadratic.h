@@ -8,7 +8,7 @@ private:
 	double a;
 	double b;
 	double c;
-	double discriminant;
+	double discriminant;										
 	double root1;
 	double root2;
 public:
@@ -16,7 +16,7 @@ public:
 	double getB();
 	double getC();
 	double getDiscriminant(double a, double b, double c);
-	double getRoot1(double a, double b, double c);
+	double getRoot1(double a, double b, double c);                 /*  ---Joseph--- Not in the UML. Make sure to update the UML after you have finished coding. (-1) */
 	double getRoot2(double a, double b, double c);
 	void setA(double a);
 	void setB(double b);
